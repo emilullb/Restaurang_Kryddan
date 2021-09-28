@@ -32,3 +32,9 @@
     pointer-events:none;
  }
 
+ .col {
+
+   border: 4px dotted rgb(243, 113, 62);
+
+}
+
