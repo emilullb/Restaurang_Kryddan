@@ -93,3 +93,23 @@
    0%   { left: -100px; }
    100% { left: 100%; }
  }
+ 
+ 
+ body, html {
+  height: 100%;
+}
+
+ .parallax {
+  /* The image used */
+  background-image: url("images/peperonihorisontal.jpg");
+  background-color: burlywood;
+
+  /* Full height */
+  height: 15%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
